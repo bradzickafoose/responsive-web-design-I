@@ -1,0 +1,256 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+  /* border: 1px solid darkgray !important; */
+}
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+p {
+  font-size: 14px;
+  line-height: 1.2;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.6rem;
+}
+.container {
+  max-width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+  padding: 0 25px;
+}
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: top;
+  margin-top: 35px;
+}
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+header nav a:first-child {
+  margin-left: 0;
+}
+header nav a:last-child {
+  margin-right: 0;
+}
+header .logo {
+  margin-top: 25px;
+}
+/* services */
+.services-header {
+  margin: 25px 0;
+}
+.services-header img {
+  width: 100%;
+}
+
+#services,
+#services-intro {
+  margin-bottom: 25px;
+}
+
+#services-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 6px solid black;
+  margin-top: 25px;
+}
+
+.services-item {
+  width: 48%;
+  padding: 25px;
+  background-color: #f4f3f4;
+  border: 2px solid #000;
+  margin-bottom: 25px;
+}
+
+.services-item button {
+  background-color: #ffffff;
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 10px 30px;
+  margin-top: 10px;
+}
+
+/* facts */
+#facts {
+  display: flex;
+}
+
+#facts .column {
+  width: 50%;
+  padding: 25px 0;
+}
+
+#facts p {
+  margin-right: 25px;
+}
+
+#facts img {
+  width: 100%;
+}
+
+#facts ul {
+  list-style-type: square;
+  margin: 25px 0 0 25px;
+}
+
+#facts ul li {
+  padding-bottom: 10px;
+}
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
