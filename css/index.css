@@ -171,6 +171,7 @@ section {
 header {
     display: flex;
     justify-content: space-between;
+    padding: 0 2%;
 }
 
 header nav {
@@ -178,10 +179,10 @@ header nav {
     justify-content: space-between;
     vertical-align: top;
     margin-top: 5%;
+    width: 70%;
 }
 
 header nav a {
-    margin-right: 65px;
     font-size: 14px;
     color: gray;
     text-decoration: none;
@@ -381,6 +382,10 @@ footer {
         align-items: center;
     }
 
+    header nav {
+        width: 80%;
+    }
+
     /*************** HOMEPAGE **************/
 
     .cta {
@@ -404,6 +409,11 @@ footer {
         background: lightyellow;
     }
 
+    header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     header nav {
         flex-direction: column;
         width: 100%;
@@ -423,6 +433,9 @@ footer {
 
     /*************** HOMEPAGE **************/
 
+    .cta .cta-text {
+        padding: 0;
+    }
     .main-content .top-content .text-content,
     .main-content .bottom-content .text-content {
         width: 100%;
