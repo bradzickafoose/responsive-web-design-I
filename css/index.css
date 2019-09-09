@@ -159,6 +159,20 @@ h5 {
     margin: 0 auto;
 }
 
+@media(max-width: 800px) {
+    .container {
+      width: 800px;
+      background: red;
+    }
+}
+
+@media(max-width: 500px) {
+    .container {
+      width: 500px;
+      background: gray;
+    }
+}
+
 /* header */
 header {
     display: flex;
@@ -271,10 +285,12 @@ header .logo {
     padding: 39px 10px 0;
 }
 
+/* contact */
 .contact p {
     margin: 20px 0;
 }
 
+/* footer */
 footer {
     margin: 32px 0;
     text-align: center;
