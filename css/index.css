@@ -374,7 +374,6 @@ footer {
 @media (max-width: 800px) {
     .container {
         max-width: 800px;
-        background: peachpuff;
     }
 
     header {
@@ -406,7 +405,6 @@ footer {
 @media (max-width: 500px) {
     .container {
         max-width: 500px;
-        background: lightyellow;
     }
 
     header {
